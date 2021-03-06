@@ -6,7 +6,7 @@ public class C6_WhileLoop5 {
 		// Verilen sayinin asal olup olmadigini bulan program yazin
 		// asal sayi : 1 ve kendisi disinde hicbir pozitif tamsayiya bolunmeyen
 		
-		int sayi = 50;
+		int sayi = 10;
 		String flag = "Asal"; //flag bizim istedigimiz sartin gerceklesip gerceklesmedigini kontrol eder
 		int bolen = 2;
 		while (bolen<sayi) {
@@ -17,8 +17,6 @@ public class C6_WhileLoop5 {
 			bolen++;
 		}
 		System.out.println(flag);
-		
-
 	}
 
 }
