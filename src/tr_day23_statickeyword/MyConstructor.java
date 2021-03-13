@@ -1,6 +1,7 @@
 package tr_day23_statickeyword;
 
 public class MyConstructor {
+	
     int x =3;
     int y =5;
     
@@ -13,7 +14,7 @@ public class MyConstructor {
         this ();                                //3. satir da deger olmadigi icin 4. satira gonderiyor
         
         this.y=i;                               //6. satir **y 3 degeri atandi
-        x+=y;                                   //7. satir **eski deger 4+3=7 oldu 
+        this.x+=y;                                   //7. satir **eski deger 4+3=7 oldu 
         System.out.println("-x" + x);         //yazdirinca da -x7 olur
     }
     
