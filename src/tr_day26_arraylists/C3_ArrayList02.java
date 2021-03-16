@@ -41,5 +41,4 @@ public class C3_ArrayList02 {
 		// getirelemedigini anlamaniz icin false dondurur
 
 	}
-
 }
