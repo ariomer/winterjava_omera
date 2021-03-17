@@ -1,4 +1,4 @@
-package tr_day27arraylists;
+package tr_day27_arraylists;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

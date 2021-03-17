@@ -1,4 +1,4 @@
-package tr_day27arraylists;
+package tr_day27_arraylists;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,5 +25,7 @@ public class ArrayList03 {
 			fibo.add(fibo.get(i-2)+fibo.get(i-1));
 		}
 		System.out.println(fibo);
+		
+		scan.close();
 	}
 }
