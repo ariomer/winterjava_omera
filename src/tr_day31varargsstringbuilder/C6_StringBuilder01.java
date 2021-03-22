@@ -23,13 +23,17 @@ public class C6_StringBuilder01 {
 		System.out.println("sb3 append: " + sb3);//sb3 append:  Hoca
 		
 		System.out.println("sb1 uzunluk " + sb1.length());//5
-		System.out.println("sb1 capacity " + sb1.capacity());//16
+		System.out.println("sb1 capacity " + sb1.capacity());//16, bir deger yazmadigimiz icin default kapasite 16
 		
-		System.out.println("sb2 uzunluk " + sb2.length());//5
-		System.out.println("sb2 capacity " + sb2.capacity());//16
+		System.out.println("sb2 uzunluk " + sb2.length());//11
+		System.out.println("sb2 capacity " + sb2.capacity());//22, ilk basta biz 6 olusturduk 16 da default deger
 		
 		System.out.println("sb3 uzunluk " + sb3.length());//5
-		System.out.println("sb3 capacity " + sb3.capacity());//16
+		System.out.println("sb3 capacity " + sb3.capacity());//10 basta 10 kapasite verdigimiz icin dolana kadar 10 u kullanir
+		
+		// capacity hafiza yonetimi icin onemli cok onemli
+		// koda yazilirken sabit uzunluk ve maksimum uzunluk belli ise
+		// 3.method ile olusturarak HAFIZA KULLANIMINI optimize edebiliriz
 
 	}
 
