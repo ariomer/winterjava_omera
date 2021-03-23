@@ -1,8 +1,9 @@
 package tr_day21_scope;
 
 public class Scope6 {
-	int num1; //instance variable // default value 0'dir.
-	String name = "Ali"; //instance variable
+	public int num1; //instance variable, default value 0'dir.Access modifier public yapilinca heryerden ulasilabilir
+	String name = "Ali"; //instance variable, access modifier yazilmadigi icin default access modifier gecerlidir
+	                     // sadece paket icinde kullanilabilir
 	
 	public static void main(String args){ 
 	  add();
