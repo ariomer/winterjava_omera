@@ -1,4 +1,4 @@
-package tr_day33_Encapsulation;
+package tr_day33_encapsulation;
 
 import tr_day20_scope.Scope1;
 import tr_day21_scope.Scope6;

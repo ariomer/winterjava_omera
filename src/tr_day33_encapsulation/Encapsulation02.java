@@ -1,4 +1,4 @@
-package tr_day33_Encapsulation;
+package tr_day33_encapsulation;
 
 public class Encapsulation02 {
 	private String okulIsmi="Yildiz Koleji";

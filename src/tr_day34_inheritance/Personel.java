@@ -1,4 +1,4 @@
-package tr_day34_Inheritance;
+package tr_day34_inheritance;
 
 public class Personel {
 
