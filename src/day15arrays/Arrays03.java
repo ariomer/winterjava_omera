@@ -2,13 +2,13 @@ package day15arrays;
 
 import java.util.Arrays;
 
-public class Array03 {
+public class Arrays03 {
 
 	public static void main(String[] args) {
 		
 		//=====split()======
 		/*
-		 	split() is used to split a String by using specifi character/s
+		 	split() is used to split a String by using specific character/s
 		 	split() puts the elements in an array
 		 */
 		
