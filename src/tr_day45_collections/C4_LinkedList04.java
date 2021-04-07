@@ -28,6 +28,7 @@ public class C4_LinkedList04 {
 		System.out.println(ll2.get(2)); // C
 		System.out.println(ll2.getFirst()); // A
 		System.out.println(ll2.getLast()); // D
+		
 	}
 
 }
