@@ -22,6 +22,9 @@ public class C5_TreeSet {
 		for (int i = 0; i < 1000; i++) {
 			set2.add(""+i);
 		}
+		
+		TreeSet<String> set3 = new TreeSet<>(set2);
+		
 		System.out.println(System.currentTimeMillis());
 		
 
