@@ -20,6 +20,13 @@ public class Stream01Integer {
 		rakamlar.stream().filter(t -> t%2 != 0).forEach(System.out::println);
 		System.out.println("===========");
 		rakamlar.stream().filter(t -> t%2 == 0).forEach(Stream01Integer::yazdir);
+		
+		System.out.println("===========");
+		rakamlar.stream().filter(Stream01Integer::tekMi).forEach(Stream01Integer::yazdir);
+	}
+	
+	public static boolean tekMi(int x) {
+		return x%2!=0;
 	}
 	
 	public static void yazdir(int x) {
